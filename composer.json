@@ -1,19 +1,16 @@
 {
     "name": "dyu/dyu-log-php-sdk",
-    "description": "Your package description",
     "type": "library",
     "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Dyu\\DyuLogPhpSdk\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "EchoDzg"
         }
     ],
-    "require": {
-        "php": ">7.1"
-    },
-    "autoload": {
-        "files": [
-            "./Log_Autoload.php"
-        ]
-    }
+    "require": {}
 }

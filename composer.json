@@ -1,5 +1,7 @@
 {
     "name": "dyu/dyu-log-php-sdk",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Dyu\\DyuLogPhpSdk\\": "src/"

@@ -11,7 +11,7 @@ class ProtobufEnum {
 	}
 }
 
-class ProtobufMessage {
+class SlsProtobufMessage {
 
 	function __construct($fp = NULL, &$limit = PHP_INT_MAX) {
 		if($fp !== NULL) {

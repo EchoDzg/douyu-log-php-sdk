@@ -78,7 +78,7 @@ class Aliyun_Log_Client {
         $this->accessKeyId = $accessKeyId;
         $this->accessKey = $accessKey;
         $this->stsToken = $token;
-        $this->source = Aliyun_Log_Util::getLocalIp();
+       // $this->source = Aliyun_Log_Util::getLocalIp();
     }
     private function setEndpoint($endpoint) {
         $pos = strpos ( $endpoint, "://" );

@@ -1,5 +1,5 @@
 {
-  "name": "douyu/douyu-log-php-sdk",
+  "name": "dyu/dyu-log-php-sdk",
   "description": "A short description of what your package does",
   "require": {
     "php": ">=7.4",

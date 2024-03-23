@@ -1,8 +1,14 @@
 {
-  "name": "dyu/dyu-log-php-sdk",
-  "description": "A short description of what your package does",
-  "require": {
-    "php": ">=7.4",
-    "another-vendor/package": "1.*"
-  }
+    "name": "dyu/dyu-log-php-sdk",
+    "autoload": {
+        "psr-4": {
+            "Dyu\\DyuLogPhpSdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EchoDzg"
+        }
+    ],
+    "require": {}
 }
